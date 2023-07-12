@@ -105,17 +105,4 @@ components:
       required:
         - id
     Task:
-      type: object
-      properties:
-        id:
-          type: string
-        name:
-          type: string
-        priority:
-          type: integer
-        description:
-          type: string
-      required:
-        - id
-        - name
-        - priority
+      $ref: "./components/Task.yml"
